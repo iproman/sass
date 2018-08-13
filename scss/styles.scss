@@ -10,7 +10,7 @@
   }
   li {
     float: left;
-    width: 14%;
+    width: (100% / 6);
   }
   a {
     color: $offWhite;
@@ -44,4 +44,30 @@
 section h1 {
   font-size: $sectionHeading;
   color: $deepBlue;
+}
+
+#services {
+  margin-bottom: 60px;
+  @include clearFix;
+  li{
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    width: (100% /3);
+  }
+  img{
+    width: 60%;
+    margin: 20px 20px;
+  }
+  a{
+    text-decoration: none;
+    color: $deepBlue;
+    font-weight: bold;
+    &:hover{
+      color: red;
+    }
+  }
+
 }
