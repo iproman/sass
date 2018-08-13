@@ -1,24 +1,32 @@
 // Mixins
-@mixin banner{
+@mixin banner {
   width: 100%;
   position: relative;
   color: white;
-  .banner-content{
+  .banner-content {
     position: absolute;
     top: 50px;
     width: 100%;
   }
-  img{
+  img {
     width: 100%;
   }
-  span{
+  span {
     font-size: $bannerHeading;
     display: block;
     text-transform: uppercase;
     font-weight: bold;
   }
-  span.title{
+  span.title {
     font-weight: normal;
     margin-bottom: 30px;
+  }
+}
+
+@mixin clearFix {
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
   }
 }
