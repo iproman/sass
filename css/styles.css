@@ -42,7 +42,7 @@ li {
     display: block;
     text-align: center; }
     #main-nav a:hover {
-      background: #333; }
+      background: #04455b; }
 
 .lead-banner {
   width: 100%;
@@ -113,7 +113,7 @@ section h1 {
     color: #032f3e;
     font-weight: bold; }
     #services a:hover {
-      color: red; }
+      color: #3e1203; }
 
 #projects li {
   float: left;
