@@ -114,3 +114,13 @@ section h1 {
     font-weight: bold; }
     #services a:hover {
       color: red; }
+
+#projects li {
+  float: left;
+  margin-right: 8%;
+  margin-bottom: 8%;
+  width: 46%; }
+  #projects li:nth-child(2n) {
+    margin-right: 0; }
+  #projects li img {
+    width: 100%; }

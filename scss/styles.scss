@@ -69,5 +69,10 @@ section h1 {
       color: red;
     }
   }
-
+}
+#projects li {
+  @include grid(2, 8%);
+  img{
+    width: 100%;
+  }
 }
